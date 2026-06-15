@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>City Furniture &amp; Appliances — Reporting &amp; Answers</title>
+<style>
+  :root{--navy:#0a2a5e;--blue:#0c4da2;--red:#ed1b2f;--ink:#1a2236;--mut:#5b6478;--line:#e2e7f2;--paper:#f4f6fb;--good:#2f7a52}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.6;background:var(--paper)}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+  .hero{background:linear-gradient(150deg,var(--navy),var(--blue));color:#fff;padding:54px 0 44px;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;right:-90px;top:-90px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle,rgba(237,27,47,.35),transparent 70%)}
+  .hero .wrap{position:relative;z-index:1}
+  .eyebrow{display:inline-block;background:var(--red);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:6px 14px;border-radius:30px;margin-bottom:14px}
+  .hero h1{font-size:2.3rem;max-width:20ch;line-height:1.12}
+  .hero p{color:#d6e2f6;margin-top:12px;max-width:62ch}
+  section{padding:46px 0}
+  h2.sec{font-size:1.6rem;color:var(--navy)}
+  .lead{color:var(--mut);margin:8px 0 18px;max-width:70ch}
+  /* dashboard mock */
+  .dash{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:0 8px 28px rgba(12,77,162,.07)}
+  .dash-top{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;border-bottom:1px solid var(--line);padding-bottom:14px;margin-bottom:16px}
+  .dash-top h3{color:var(--navy);font-size:1.1rem}
+  .pill{font-size:.72rem;font-weight:700;color:var(--blue);background:var(--paper);padding:5px 12px;border-radius:20px}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+  @media(max-width:760px){.stats{grid-template-columns:1fr 1fr}}
+  .stat{background:var(--paper);border-radius:12px;padding:14px}
+  .stat .n{font-family:Georgia,serif;font-size:1.5rem;font-weight:700;color:var(--navy);line-height:1}
+  .stat .l{font-size:.74rem;color:var(--mut);margin-top:5px}
+  .stat .d{font-size:.72rem;color:var(--good);margin-top:3px;font-weight:600}
+  table{border-collapse:collapse;width:100%;margin-top:18px;font-size:.86rem}
+  th,td{border-bottom:1px solid var(--line);padding:9px 10px;text-align:right}
+  th:first-child,td:first-child{text-align:left}
+  th{color:var(--mut);font-weight:600;font-size:.75rem;text-transform:uppercase;letter-spacing:.04em}
+  td:first-child{font-weight:600;color:var(--navy)}
+  .samp{font-size:.8rem;color:var(--mut);margin-top:12px;font-style:italic}
+  .charts{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px}
+  @media(max-width:760px){.charts{grid-template-columns:1fr}}
+  .chart{background:var(--paper);border-radius:12px;padding:16px}
+  .chart-h{font-size:.78rem;font-weight:700;color:var(--navy);text-transform:uppercase;letter-spacing:.04em;margin-bottom:12px}
+  .chart svg{width:100%;height:auto;display:block}
+  .xlabels{display:flex;justify-content:space-between;font-size:.68rem;color:var(--mut);margin-top:4px;padding:0 2px}
+  .bars{display:flex;flex-direction:column;gap:10px;padding-top:4px}
+  .bar{display:grid;grid-template-columns:92px 1fr 52px;align-items:center;gap:8px;font-size:.8rem}
+  .bl{color:var(--mut)}
+  .bt{background:#e2e7f2;border-radius:6px;height:15px;overflow:hidden}
+  .bt i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--navy));border-radius:6px}
+  .bv{text-align:right;font-weight:700;color:var(--navy)}
+  /* faq */
+  .faq{display:flex;flex-direction:column;gap:12px}
+  details{background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  summary{cursor:pointer;padding:16px 20px;font-weight:600;color:var(--navy);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:1rem}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";color:var(--red);font-size:1.3rem;font-weight:700}
+  details[open] summary::after{content:"\2013"}
+  .ans{padding:0 20px 18px;color:var(--ink);border-top:1px solid var(--line)}
+  .ans p{margin-top:12px;font-size:.95rem}
+  footer{background:var(--ink);color:#aeb8cf;padding:26px 0;font-size:.84rem;line-height:1.6}
+  footer b{color:#fff}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="eyebrow">Prepared for Mani &amp; the ownership group</span>
+    <h1>Your reporting, and your questions answered.</h1>
+    <p>What your dashboard looks like, measured in your point-of-sale dollars, and straight answers to the things you are probably wondering.</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+<section>
+  <h2 class="sec">What you'll see: your dashboard, in POS dollars</h2>
+  <p class="lead">Every store owner sees their own store's numbers; you see the group roll-up. Everything tied back to your point-of-sale dollars, not clicks. Below is the shape of it.</p>
+  <div class="dash">
+    <div class="dash-top"><h3>Group roll-up &middot; this month</h3><span class="pill">All 13 stores</span></div>
+    <div class="stats">
+      <div class="stat"><div class="n">$612K</div><div class="l">Revenue influenced</div><div class="d">+14% vs last month</div></div>
+      <div class="stat"><div class="n">3,180</div><div class="l">Store-visit actions</div><div class="d">+22%</div></div>
+      <div class="stat"><div class="n">540</div><div class="l">Leads (financing + consult)</div><div class="d">+31%</div></div>
+      <div class="stat"><div class="n">214</div><div class="l">Financing applications</div><div class="d">+18%</div></div>
+      <div class="stat"><div class="n">+186</div><div class="l">New Google reviews</div><div class="d">rating 4.1 &rarr; 4.4</div></div>
+      <div class="stat"><div class="n">$11.8K</div><div class="l">Ad spend</div><div class="d">$4.6K co-op claimed</div></div>
+      <div class="stat"><div class="n">4.2x</div><div class="l">Blended ROAS</div><div class="d">in POS dollars</div></div>
+      <div class="stat"><div class="n">"Warmer"</div><div class="l">AI answer (quarterly probe)</div><div class="d">appliance flag easing</div></div>
+    </div>
+    <div class="charts">
+      <div class="chart">
+        <div class="chart-h">POS revenue influenced &middot; last 6 months</div>
+        <svg viewBox="0 0 320 135" role="img" aria-label="Rising revenue trend over six months">
+          <line x1="20" y1="120" x2="305" y2="120" stroke="#d7deeb" stroke-width="1"/>
+          <line x1="20" y1="80" x2="305" y2="80" stroke="#eef1f7" stroke-width="1"/>
+          <line x1="20" y1="40" x2="305" y2="40" stroke="#eef1f7" stroke-width="1"/>
+          <polygon points="20,112 76,96 132,80 188,63 244,39 300,18 300,120 20,120" fill="rgba(12,77,162,.10)"/>
+          <polyline points="20,112 76,96 132,80 188,63 244,39 300,18" fill="none" stroke="#0c4da2" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+          <circle cx="20" cy="112" r="3" fill="#0c4da2"/>
+          <circle cx="76" cy="96" r="3" fill="#0c4da2"/>
+          <circle cx="132" cy="80" r="3" fill="#0c4da2"/>
+          <circle cx="188" cy="63" r="3" fill="#0c4da2"/>
+          <circle cx="244" cy="39" r="3" fill="#0c4da2"/>
+          <circle cx="300" cy="18" r="4.5" fill="#ed1b2f"/>
+        </svg>
+        <div class="xlabels"><span>Jan</span><span>Feb</span><span>Mar</span><span>Apr</span><span>May</span><span>Jun</span></div>
+      </div>
+      <div class="chart">
+        <div class="chart-h">Where it came from &middot; this month</div>
+        <div class="bars">
+          <div class="bar"><span class="bl">Local ads</span><div class="bt"><i style="width:100%"></i></div><span class="bv">$220K</span></div>
+          <div class="bar"><span class="bl">Organic / SEO</span><div class="bt"><i style="width:68%"></i></div><span class="bv">$150K</span></div>
+          <div class="bar"><span class="bl">Email &amp; SMS</span><div class="bt"><i style="width:50%"></i></div><span class="bv">$110K</span></div>
+          <div class="bar"><span class="bl">Retargeting</span><div class="bt"><i style="width:36%"></i></div><span class="bv">$80K</span></div>
+          <div class="bar"><span class="bl">Referral</span><div class="bt"><i style="width:24%"></i></div><span class="bv">$52K</span></div>
+        </div>
+      </div>
+    </div>
+    <table>
+      <tr><th>Store</th><th>Visits</th><th>Leads</th><th>Financing</th><th>Reviews</th><th>Rev. influenced</th></tr>
+      <tr><td>Prince George</td><td>410</td><td>72</td><td>31</td><td>+24</td><td>$84K</td></tr>
+      <tr><td>Kamloops</td><td>295</td><td>51</td><td>22</td><td>+17</td><td>$61K</td></tr>
+      <tr><td>West Kelowna</td><td>338</td><td>58</td><td>26</td><td>+19</td><td>$70K</td></tr>
+      <tr><td>Grande Prairie</td><td>262</td><td>44</td><td>18</td><td>+15</td><td>$53K</td></tr>
+      <tr><td>Lethbridge</td><td>240</td><td>39</td><td>16</td><td>+13</td><td>$48K</td></tr>
+    </table>
+    <p class="samp">Illustrative layout with sample figures. Your real numbers populate from your point of sale (Windward, later Storis) and the live channels, per store, every week.</p>
+  </div>
+</section>
+
+<section>
+  <h2 class="sec">Your questions, answered</h2>
+  <p class="lead">The things a 50-year, locally-owned group rightly asks before handing over the marketing.</p>
+  <div class="faq">
+
+    <details open>
+      <summary>Will we lose our local followers if you merge the Instagrams into one account?</summary>
+      <div class="ans"><p>No. We consolidate, we don't delete. The main brand account becomes the home, the store accounts are migrated or kept as local handles that feed into it, and content stays locally relevant for each market. You keep your audiences; they just stop being thirteen disconnected silos and start reinforcing one brand. Nothing is thrown away.</p></div>
+    </details>
+
+    <details>
+      <summary>Do we keep our in-house marketing team?</summary>
+      <div class="ans"><p>Yes, and we want you to. They keep shooting and posting, exactly as today. We are the central brain on top of them: the strategy, the scripts, the design, the ads, the SEO and the measurement that make thirteen separate efforts add up to one brand. We make your team's work go further, we don't replace it.</p></div>
+    </details>
+
+    <details>
+      <summary>How does vendor co-op lower what we actually spend on ads?</summary>
+      <div class="ans"><p>Manufacturers like Ashley and the appliance and mattress brands set aside co-op advertising dollars when their product and branding are featured to spec. Most retailers leave that money on the table. We build the program co-op compliant from day one, file the claims, and report what's claimed, so a real share of the media is reimbursed and your out-of-pocket on ads is lower than the headline budget.</p></div>
+    </details>
+
+    <details>
+      <summary>Is our data, and our customers' data, safe?</summary>
+      <div class="ans"><p>Yes, accurately rather than fearfully. Your checkout already runs on Shopify, which is certified PCI-DSS Level 1, the same standard banks require, and it does not store card numbers on your servers. The new build meets that same bar by design: HTTPS everywhere, a firewall and CDN in front of the site, dashboards behind secure sign-in, least-privilege access, and automatic backups. We market security as a customer trust signal, we never overstate the risk.</p></div>
+    </details>
+
+    <details>
+      <summary>Can we start small? What if it doesn't work?</summary>
+      <div class="ans"><p>That's exactly how we recommend starting. A 2-3 store pilot, fully managed from about $5,000/mo, so you see it working in your own point-of-sale numbers before committing across the group. It's phased so you only pay for what's switched on, with a minimum initial term and then month to month. You prove it on your own dashboard, then we roll the proven system across all 13.</p></div>
+    </details>
+
+    <details>
+      <summary>What stays local, and what becomes central?</summary>
+      <div class="ans"><p>Central: one brand, one content bank, one promo calendar, one paid engine, one dashboard system, one point of contact. Local: each store stays locally owned, keeps its own identity, its own local content and promos, its own customers and its own numbers. We centralize the engine, not the ownership.</p></div>
+    </details>
+
+    <details>
+      <summary>How fast do we get our deliverables?</summary>
+      <div class="ans"><p>Fast. Written content is ready for you to review within a day or two of the onboarding call. Drafts of every deliverable, brand, website, profiles and content, are ready inside the first week. After a 3-4 day round of edits, the whole build is signed off and live in about two weeks. Google profile verification and the live per-store inventory feed start in that window and finish as those external steps clear.</p></div>
+    </details>
+
+    <details>
+      <summary>Who do we actually talk to?</summary>
+      <div class="ans"><p>One person: Andrei, your single point of contact, who owns the relationship, the calendar and the results. Behind him is a named team you'll know, Kabrin on the AI systems, Sky on the content, and Nate's sales advisory on the higher tiers. No rotating cast, no coordination tax.</p></div>
+    </details>
+
+    <details>
+      <summary>What about the bad reviews, and what AI says about us?</summary>
+      <div class="ans"><p>Two parts. First, most of the worst reviews online belong to an unrelated US company you share a name with, and we separate your brand from theirs so it stops bleeding onto you. Second, the real, fixable theme is appliance after-sale service. We help you own the warranty hand-off, respond to the specific reviews, and build a steady flow of fresh positive reviews, which is what shifts what the AI engines say over time. We monitor it and report the movement each quarter.</p></div>
+    </details>
+
+    <details>
+      <summary>How do you report, and how often?</summary>
+      <div class="ans"><p>Everything in your point-of-sale dollars, on a per-store dashboard with a group roll-up (the layout above). Weekly numbers, a monthly review, and quarterly planning tied to the promo calendar, with vendor co-op claimed shown separately. You always know what every dollar is doing, by store.</p></div>
+    </details>
+
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <b>City Furniture &amp; Appliances</b> &nbsp;&times;&nbsp; AG1 Consulting Ltd &nbsp; | &nbsp; Reporting and answers, prepared for Mani and the ownership group. Dashboard figures are illustrative sample data; your real numbers come from your point of sale and live channels.
+  </div>
+</footer>
+
+</body>
+</html>
